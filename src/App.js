@@ -3,6 +3,7 @@ import { nanoid } from 'nanoid'
 import Die from './components/Die'
 import Confetti from 'react-confetti'
 import diceRollGif from './assets/dice-roll.gif'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -72,6 +73,7 @@ function App() {
 }
 
   return (
+    
     <div className="home-page-wrapper">
       <div>
         <img className="dice-gif" alt="A gif of rolling dice" src={diceRollGif}></img>
@@ -91,6 +93,7 @@ function App() {
           {tenzies ? 'New Game' : 'Roll'} 
         </button>
       </main>
+      <Footer />
     </div>
 
   );

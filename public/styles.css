@@ -96,7 +96,7 @@ main {
     border: none;
     margin-bottom: 40px;
     border-radius: 6px;
-    background-color: #5035FF;
+    background-color: #59E391;
     color: white;
     font-size: 1.2rem;
     font-family: 'Karla', sans-serif;
@@ -107,6 +107,28 @@ main {
     outline: none;
 }
 
+.roll-dice:hover{
+    background-color: #47b573;
+}
+
 .roll-dice:active {
     box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+
+.footer {
+    position: fixed;
+    left: -1;
+    bottom: 0;
+    width: 100%;
+    font-size: 20px;
+    margin-top: 0;
+    padding: 10px;
+    color: #59E391;
+    text-align: center;
+    /* border: red solid; */
+    font-family: 'Karla', sans-serif;
+}
+
+.footer a {
+    color: yellow;
 }
