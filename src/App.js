@@ -67,7 +67,9 @@ function App() {
       />
     )
   })
-  
+  const styles = {
+    color: true ? "#59E391" : "white"
+}
 
   return (
     <div className="home-page-wrapper">
