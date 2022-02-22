@@ -68,12 +68,9 @@ function App() {
       />
     )
   })
-  const styles = {
-    color: true ? "#59E391" : "white"
-}
 
   return (
-    
+
     <div className="home-page-wrapper">
       <div>
         <img className="dice-gif" alt="A gif of rolling dice" src={diceRollGif}></img>
